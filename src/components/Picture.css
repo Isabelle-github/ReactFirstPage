@@ -1,0 +1,41 @@
+.galery figure img{
+   width: 90%;
+   height: 30vh;
+}
+
+.galery{
+    width: 80%;
+    margin: 0 auto;
+    /* gap: 0.5em; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-left: gray 40px solid;
+    border-right: gray 40px solid;
+}
+.galery p{
+    width: 80%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: left;
+}
+.galery a{
+    text-decoration: none;
+    color: blue;
+    display: inline-block;
+    padding-top: 0em;
+    text-align: left;
+}
+.greybox{
+    background-color: gray;
+    height: 100%;
+    width: 10%;
+}
+.container{
+    display: flex;
+}
+.myPic{
+    text-align: left;
+}
+.textP p:nth-of-type(2){
+    color: green;
+}

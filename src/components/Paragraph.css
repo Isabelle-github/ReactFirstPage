@@ -1,0 +1,35 @@
+
+main section:nth-of-type(1){
+    text-align: center;
+    padding: 2em;
+}
+.phrase{
+    font-weight: 600;
+    font-size: 2em;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+main section span{
+    color: green;
+    display: inline-block;
+    
+}
+.articles{
+   display:grid;
+   grid-template-columns: 1fr 1fr;
+}
+article{
+    margin: 1em auto;
+    width: 65%;
+    text-align: left;
+    display: flex;
+}
+article h3{
+    margin-bottom: 5px;
+}
+article img{
+    width: 2.5em;
+    padding-right: 10px;
+    padding-bottom: 5em;
+}
