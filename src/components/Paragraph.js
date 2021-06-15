@@ -1,10 +1,10 @@
 import './Paragraph.css';
 import brush from "./img/brush.svg";
 
-const Paragraph = ({ title }) => {
+const Paragraph = (props) => {
     return (
         <article>
-            <img src={brush} alt="brush" />
+            <img src={props.imageSource} alt={props.alt2} />
             {/* <img src={require("./components/img/brush.svg").default}></img> */}
             <div>
                 <h3>Brand Identity</h3>

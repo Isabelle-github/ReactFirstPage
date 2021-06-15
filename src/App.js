@@ -11,6 +11,10 @@ import Pizza3 from './components/img/scampi.jpeg';
 import Pizza4 from './components/img/teller.jpeg';
 import Pizza5 from './components/img/spagetthi.jpeg';
 import Pizza6 from './components/img/glass.jpeg';
+import brush from './components/img/brush.svg';
+import globe from './components/img/globe-line.svg';
+import megaphone from './components/img/megaphone.svg';
+import objectselect from './components/img/object-select.svg';
 
 function App() {
   return (
@@ -21,10 +25,10 @@ function App() {
           <span>What we do</span>
           <p className="phrase">We've got everything you need to launch and grow your business </p>
           <div className="articles">
-            <Paragraph></Paragraph>
-            <Paragraph></Paragraph>
-            <Paragraph></Paragraph>
-            <Paragraph></Paragraph>
+            <Paragraph imageSource={brush} alt2='brush'></Paragraph>
+            <Paragraph imageSource={globe} alt2='globe'></Paragraph>
+            <Paragraph imageSource={megaphone} alt2='megaphone'></Paragraph>
+            <Paragraph imageSource={objectselect} alt2='objectselect'></Paragraph>
           </div>
         </section>
         <div className="container">
