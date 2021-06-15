@@ -1,12 +1,12 @@
 .galery figure img{
-   width: 90%;
-   height: 30vh;
+   width: 100%;
+   height: 25vh;
 }
 
 .galery{
     width: 80%;
     margin: 0 auto;
-    /* gap: 0.5em; */
+    gap: 1.5em;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     border-left: gray 40px solid;

@@ -1,18 +1,18 @@
 import './Picture.css'
-import Fricadelle from './img/frikadellen.jpeg';
+// import Fricadelle from './img/frikadellen.jpeg';
 
-const Picture = () => {
+const Picture = (props) => {
+    console.log(props);
     return (
         <div className='myPic'>
             <figure>
-                <img src={Fricadelle} alt='fricki' />
+                <img src={props.imageSrc} alt={props.altText} />
             </figure>
-            <div className='textP'>
-                <a href='#'>Fricadelle</a>
-                <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum is simply dummy text of the</p>
-                <p>$350/560</p>
-            </div>
-
+            <figcaption className='textP'>
+                <a href={props.link}>{props.name}</a>
+                <p>{props.describe}</p>
+                <p>{props.price}</p>
+            </figcaption>
         </div>
 
     )
